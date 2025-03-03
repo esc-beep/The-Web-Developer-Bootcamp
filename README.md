@@ -6,8 +6,8 @@
 
 ## 2. HTML 기본
 - [HTML: 기초](/Section3/Section3.md)
-- HTML: 시맨틱(Semantics)
-- HTML: 폼과 테이블
+- [HTML: 시맨틱(Semantics)](/Section4/Section4.md)
+- [HTML: 폼과 테이블](/Section5/Section5.md)
 
 ## 3. CSS 기본
 - CSS: 기초
