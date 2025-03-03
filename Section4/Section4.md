@@ -53,7 +53,7 @@ header, footer, nav, section, article, main처럼 요소에 의미를 부여한�
 ## 스크린 리더 데모
 
 - Mac: Voiceover(cmd + F5) 사용
-- Window: Narrator(Window + Ctrl+ Enter) 사용
+- Window: Narrator(Window + Ctrl+ Enter) 사용 <br>
 ```<div>```만 사용한 Medium보다 여러 시맨틱 요소를 사용한 stripe가 접근성이 더 좋다.
 
 ## VSCode 팁 : 에밋
