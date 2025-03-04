@@ -12,9 +12,9 @@
 - [HTML: 폼과 테이블](/Section5/Section5.md)
 
 ## 3. CSS 기본
-- CSS: 기초
-- CSS 선택자의 세계
-- CSS 박스 모델
+- [CSS: 기초](/Section6/Section6.md)
+- [CSS 선택자의 세계](/Section7/Section7.md)
+- [CSS 박스 모델](/Section8/Section8.md)
 - 유용한 CSS 속성들
 - 반응형 CSS 및 Flexbox
 - 가격표 만들기 프로젝트
