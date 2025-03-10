@@ -65,11 +65,34 @@ HoberButton 폴더에서 실습 진행
 
 ## 배경에 관한 진실
 
+배경 이미지 적용하기
+- ```background-image: "<url>"; background-size: cover```
+- 사이즈의 경우 cover(박스 사이즈 이상은 잘림)이나 repeat(부족한 부분은 이미지 반복)을 사용한다.
+- ```background-position```: 배경의 시작점을 지정해준다.
+<br>
+다양한 특성을 한 번에 작성하는 속기법<br>
 
+```background: url(이미지 경로) no-repeat center/cover , blueviolet```<br>
+background-size를 쓰려면 ```<position>``` 뒤에 /와 함께 작성해 줘야 한다.
 
 ## 놀라운 구글의 글꼴
 
+폰트를 사용할 때 사용자의 컴퓨터에도 같은 글꼴이 존재하는지를 생각해야 한다.<br>
+실제로 글꼴을 문서에 포함시킬 수도 있지만 유료 글꼴은 로드할 때마다 비용을 청구한다.<br>
+따라서 무료이며 다양한 글꼴을 지원하는 Google font를 사용하는 것이 좋다.<br>
+Google Font는 일반적으로 짝을 이루는 글꼴을 보여주는 Pairing 섹션이 있으므로 이를 확인해 제목/본문을 구별해도 좋다.<br>
 
+```
+body {
+    font-family: Roboto, sans-serif;
+}
+```
 
 ## 사진 블로그 코딩하기 
 
+PhotoSite 폴더에서 실습 진행<br>
+1. 이미지들을 격자 형태로 랭글링
+2. 사이트 이름으로 된 헤더를 작은 nav로 만듦
+<br>
+
+```<img>```를 각각 다른 줄에 두면 이미지 사이에 화이트스페이스가 생겨서 격자 배열이 엉망이 된다. 현재 코드와 같이 작성하면 각각의 이미지는 별개지만 서로 맞닿아 있고 줄바꿈도 생기지 않는다.
