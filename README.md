@@ -15,7 +15,7 @@
 - [CSS: 기초](/Section6/Section6.md)
 - [CSS 선택자의 세계](/Section7/Section7.md)
 - [CSS 박스 모델](/Section8/Section8.md)
-- 유용한 CSS 속성들
+- [유용한 CSS 속성들](/Section9/Section9.md)
 - 반응형 CSS 및 Flexbox
 - 가격표 만들기 프로젝트
 - CSS 프레임워크: 부트스트랩
